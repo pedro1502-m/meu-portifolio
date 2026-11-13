@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="Portfólio de Pedro, estudante de Análise e Desenvolvimento de Sistemas com foco em desenvolvimento web full-stack.">
+    <title>Pedro Henrique | Desenvolvedor Web</title>
+
+    <!-- ADICIONE ESTA LINHA PARA CARREGAR O NOVO ÍCONE DA ABA -->
+    <link rel="icon" type="image/png" href="logo1.jpg.jfif">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
+
+    <!-- CSS Separado -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- JS Separado -->
+    <script src="script.js" defer></script>
+
+   
+</head>
+
+<body>
+
+    <!-- MENU DE NAVEGAÇÃO -->
+    <header class="header">
+        <nav class="nav container" aria-label="Navegação principal">
+            <a class="logo" href="#inicio">
+                pedro<span class="dot">.</span>
+            </a>
+
+            <button class="menu-toggle" aria-label="Abrir menu" aria-expanded="false">
+                ☰
+            </button>
+
+            <ul class="nav-links">
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li>
+                    <a class="nav-contact" href="#contato">
+                        Contato <span>↗</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- APRESENTAÇÃO / HERO -->
+        <section class="hero container" id="inicio">
+            <div class="hero-content reveal">
+                <p class="eyebrow">
+                    <span class="status-dot"></span>
+                    ESTUDANTE DE ADS · DESENVOLVIMENTO WEB
+                </p>
+
+                <h1>
+                    Transformando ideias em
+                    <span class="text-gradient">experiências digitais.</span>
+                </h1>
+
+                <p class="hero-description">
+                    Sou o Pedro, tenho 20 anos, estudante do 4º semestre de ADS e profissional de TI. Atuo como estagiário de Suporte Técnico e quero inciar minha trajetória em Desenvolvimento Web e Engenharia de IA. Combino lógica em Python, SQL e JavaScript com o uso estratégico de inteligências artificiais para otimizar rotinas, criar automações e entregar soluções digitais eficientes.
+                </p>
+
+                <div class="hero-actions">
+                    <a class="button button-primary" href="#projetos">
+                        Ver projetos <span>↘</span>
+                    </a>
+                    <a class="button button-secondary" href="#contato">
+                        Entrar em contato
+                    </a>
+                </div>
+
+                <div class="hero-note">
+                    <span class="note-line"></span>
+                    <p>Em constante aprendizado, construindo uma linha de código por vez.</p>
+                </div>
+            </div>
+
+            <!-- PERFIL COM MOLDURA NEON E CARD DE CÓDIGO -->
+            <div class="hero-avatar-wrapper reveal">
+                <div class="profile-card">
+                    <div class="avatar-frame">
+                        <!-- Substitua a imagem abaixo pelo caminho local da sua foto (ex: foto-perfil.jpg) -->
+                        <img src="foto-de-perfil.jpg.png" alt="Foto de Pedro Henrique" class="avatar-img">
+                        <div class="avatar-glow"></div>
+                    </div>
+                    <div class="profile-badge">
+                        <span class="pulse-icon"></span>
+                        Disponível para Oportunidades
+                    </div>
+                </div>
+
+                <!-- MINI JANELA DE CÓDIGO -->
+                <div class="code-window">
+                    <div class="window-bar">
+                        <i></i><i></i><i></i>
+                        <span>developer.js</span>
+                    </div>
+                    <pre><code><span class="code-purple">const</span> developer = {
+  nome: <span class="code-cyan">"Pedro Henrique"</span>,
+  curso: <span class="code-cyan">"Análise e Dev. de Sistemas"</span>,
+  stack: [<span class="code-cyan">"HTML"</span>, <span class="code-cyan">"CSS"</span>, <span class="code-cyan">"JS"</span>, <span class="code-cyan">"SQL"</span>, <span class="code-cyan">"Python"</span>],
+  foco: <span class="code-cyan">"Full-Stack Web Development"</span>
+};</code></pre>
+                </div>
+            </div>
+
+            <a class="scroll-hint" href="#sobre">
+                ROLE PARA CONHECER <span>↓</span>
+            </a>
+        </section>
+
+<!-- SOBRE MIM -->
+<section class="section section-dark" id="sobre">
+
+    <div class="container about-grid reveal">
+
+        <!-- Coluna da Esquerda: Títulos + Foto do Caderno -->
+        <div class="about-left">
+            <p class="eyebrow">01 / SOBRE MIM</p>
+
+            <h2>
+                Curiosidade que vira
+                <span class="text-gradient">conhecimento.</span>
+            </h2>
+
+            <!-- Foto do Caderno de Estudos -->
+            <div class="about-image-wrapper">
+                <img src="caderno-estudo.jpg.jfif" alt="Foto do meu caderno de estudos cheio de códigos e lógica feitos à mão" class="about-image">
+                <div class="image-glow"></div>
+            </div>
+        </div>
+
+        <!-- Coluna da Direita: Texto Descritivo -->
+        <div class="about-copy">
+            <p>
+                Minha caminhada na tecnologia une a prática diária da infraestrutura e do suporte técnico ao desenvolvimento de software. 
+                Essa vivência no Help Desk me deu agilidade na resolução de problemas e uma visão clara de como os sistemas funcionam de ponta a ponta.
+            </p>
+
+            <p>
+                No dia a dia, fortaleço minha base no ecossistema Web (HTML5, CSS3, JavaScript e Node.js), modelagem de banco de dados com SQL e desenvolvimento de scripts em Python. 
+                Indo além do código tradicional, aplico conceitos de Engenharia de IA no mercado de trabalho para automatizar processos, aumentar a produtividade e construir aplicações inteligentes.
+            </p>
+
+            <p>
+                Busco oportunidades para evoluir como desenvolvedor, entregando código limpo, interfaces modernas e soluções que gerem valor real para o negócio.
+            </p>
+
+            <div class="about-tags">
+                <span>Engenharia de IA</span>
+                <span>Automação & Processos</span>
+                <span>Full-Stack Web</span>
+                <span>Banco de Dados SQL</span>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+       
+        </section>
+
+
+        <!-- HABILIDADES -->
+        <section class="section container" id="habilidades">
+            <div class="section-heading reveal">
+                <div>
+                    <p class="eyebrow">02 / HABILIDADES</p>
+                    <h2>Minha caixa de <span class="text-gradient">ferramentas.</span></h2>
+                </div>
+                <p class="section-intro">
+                    Tecnologias e metodologias que aplico no meu dia a dia de estudos e projetos.
+                </p>
+            </div>
+
+            <div class="skills-grid reveal">
+                <article class="skill-card featured">
+                    <span class="skill-number">01</span>
+                    <div class="skill-icon">⌘</div>
+                    <h3>HTML5 Semântico</h3>
+                    <p>Estruturação acessível, otimizada para SEO e organização limpa de conteúdo.</p>
+                    <span class="skill-level">AVANÇADO</span>
+                </article>
+
+                <article class="skill-card featured">
+                    <span class="skill-number">02</span>
+                    <div class="skill-icon">◈</div>
+                    <h3>CSS3 & Flexbox/Grid</h3>
+                    <p>Estilização moderna, layouts responsivos, animações CSS e temas Dark Neon.</p>
+                    <span class="skill-level">EM DESENVOLVIMENTO</span>
+                </article>
+
+                <article class="skill-card featured">
+                    <span class="skill-number">03</span>
+                    <div class="skill-icon">JS</div>
+                    <h3>JavaScript (ES6+)</h3>
+                    <p>Manipulação de DOM, requisições assíncronas, consumo de APIs e lógica interativa.</p>
+                    <span class="skill-level">EM DESENVOLVIMENTO</span>
+                </article>
+
+                <article class="skill-card">
+                    <span class="skill-number">04</span>
+                    <div class="skill-icon">▤</div>
+                    <h3>SQL & Bancos de Dados</h3>
+                    <p>Modelagem relacional, queries (MySQL, PostgreSQL, SQL Server) e manipulação de dados.</p>
+                    <span class="skill-level">INTERMEDIÁRIO</span>
+                </article>
+
+                <article class="skill-card">
+                    <span class="skill-number">05</span>
+                    <div class="skill-icon">Py</div>
+                    <h3>Python</h3>
+                    <p>Scripts de automação, manipulação de arquivos e lógica de programação estruturada.</p>
+                    <span class="skill-level">FUNDAMENTOS</span>
+                </article>
+
+                <article class="skill-card">
+                    <span class="skill-number">06</span>
+                    <div class="skill-icon">⌁</div>
+                    <h3>Git & GitHub</h3>
+                    <p>Controle de versão, gerenciamento de branches e versionamento de código público.</p>
+                    <span class="skill-level">EM APRENDIZADO</span>
+                </article>
+            </div>
+        </section>
+
+
+        <!-- PROJETOS REORGANIZADOS COM LOGOS EXCLUSIVOS -->
+        <section class="section projects-section" id="projetos">
+            <div class="container">
+                <div class="section-heading reveal">
+                    <div>
+                        <p class="eyebrow">03 / PROJETOS</p>
+                        <h2>Evolução prática em <span class="text-gradient">construção.</span></h2>
+                    </div>
+                    <p class="section-intro">
+                        Aplicações reais, estudos de lógica e sistemas desenvolvidos durante minha jornada.
+                    </p>
+                </div>
+
+                <div class="projects-grid reveal">
+
+                    <!-- PROJETO 01: FITNESS MANAGER -->
+                    <article class="project-card">
+                        <div class="project-visual fitness-visual">
+                            <div class="fitness-widget">
+                                <div class="widget-header">
+                                    <span>FITNESS MANAGER</span>
+                                    <span class="badge-live">LIVE</span>
+                                </div>
+                                <div class="progress-ring-container">
+                                    <svg class="progress-ring" width="70" height="70">
+                                        <circle class="ring-bg" cx="35" cy="35" r="28" />
+                                        <circle class="ring-fill" cx="35" cy="35" r="28" />
+                                    </svg>
+                                    <div class="ring-text">75%</div>
+                                </div>
+                                <div class="fitness-stats">
+                                    <div><small>CALORIAS</small><strong>640 kcal</strong></div>
+                                    <div><small>TREINO</small><strong>Hipertrofia</strong></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <div class="project-meta">
+                                <span>FULL-STACK / WEB</span>
+                                <span>01</span>
+                            </div>
+                            <h3>Fitness Manager</h3>
+                            <p>Sistema web interativo para planejamento de treinos, controle de rotinas fitness e acompanhamento de metas físicas.</p>
+                            <div class="tag-list">
+                                <span>HTML5</span>
+                                <span>CSS3</span>
+                                <span>JavaScript</span>
+                                <span>Node.js</span>
+                            </div>
+                            <span class="project-status">Projeto Principal / Em evolução</span>
+                        </div>
+                    </article>
+
+
+                    <!-- PROJETO 02: JOGO DA VELHA NEON -->
+                    <article class="project-card">
+                        <div class="project-visual tictactoe-visual">
+                            <div class="neon-tictactoe">
+                                <div class="grid-cell x-mark">X</div>
+                                <div class="grid-cell o-mark">O</div>
+                                <div class="grid-cell x-mark winning">X</div>
+                                <div class="grid-cell o-mark">O</div>
+                                <div class="grid-cell x-mark winning">X</div>
+                                <div class="grid-cell"></div>
+                                <div class="grid-cell x-mark winning">X</div>
+                                <div class="grid-cell o-mark">O</div>
+                                <div class="grid-cell"></div>
+                                <div class="strike-line"></div>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <div class="project-meta">
+                                <span>LÓGICA / JOGO</span>
+                                <span>02</span>
+                            </div>
+                            <h3>Jogo da Velha Neon</h3>
+                            <p>Jogo interativo com validação de vitórias em tempo real, placar dinâmico e efeitos visuais em luzes neon roxas e cianas.</p>
+                            <div class="tag-list">
+                                <span>JavaScript</span>
+                                <span>DOM Manipulation</span>
+                                <span>CSS Animations</span>
+                            </div>
+                            <span class="project-status">Projeto Concluído</span>
+                        </div>
+                    </article>
+
+
+                    <!-- PROJETO 03: DASHBOARD DE VENDAS -->
+                    <article class="project-card">
+                        <div class="project-visual dashboard-visual">
+                            <div class="analytics-card">
+                                <div class="analytics-head">
+                                    <span>FATURAMENTO MENSAL</span>
+                                    <span class="trend-up">+18.4% ↗</span>
+                                </div>
+                                <div class="analytics-value">R$ 14.850,00</div>
+                                <div class="chart-bars">
+                                    <div class="bar" style="--height: 40%"></div>
+                                    <div class="bar" style="--height: 65%"></div>
+                                    <div class="bar" style="--height: 50%"></div>
+                                    <div class="bar" style="--height: 85%"></div>
+                                    <div class="bar" style="--height: 70%"></div>
+                                    <div class="bar active" style="--height: 100%"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <div class="project-meta">
+                                <span>DADOS / DASHBOARD</span>
+                                <span>03</span>
+                            </div>
+                            <h3>Dashboard de Vendas</h3>
+                            <p>Painel financeiro interativo para acompanhamento de KPIs de vendas, métricas de crescimento e gráficos estilizados.</p>
+                            <div class="tag-list">
+                                <span>HTML</span>
+                                <span>CSS Flexbox/Grid</span>
+                                <span>Charts UI</span>
+                            </div>
+                            <span class="project-status">Estudo de Interface de Dados</span>
+                        </div>
+                    </article>
+
+
+                    <!-- PROJETO 04: SISTEMA DE CLÍNICA -->
+                    <article class="project-card">
+                        <div class="project-visual clinic-visual">
+                            <div class="clinic-card">
+                                <div class="medical-header">
+                                    <span class="cross">✚</span>
+                                    <span>CLÍNICA MED +</span>
+                                </div>
+                                <div class="ecg-wave">
+                                    <svg viewBox="0 0 200 40">
+                                        <path d="M0,20 L40,20 L50,5 L60,35 L70,10 L80,25 L90,20 L200,20" class="ecg-path"/>
+                                    </svg>
+                                </div>
+                                <div class="db-schema-mini">
+                                    <code>TBL_PACIENTES ➔ TBL_CONSULTAS</code>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <div class="project-meta">
+                                <span>BANCO DE DADOS</span>
+                                <span>04</span>
+                            </div>
+                            <h3>Sistema de Gestão de Clínica</h3>
+                            <p>Modelagem relacional completa de banco de dados para agendamentos médicos, gestão de prontuários e receitas.</p>
+                            <div class="tag-list">
+                                <span>SQL</span>
+                                <span>PostgreSQL</span>
+                                <span>Modelagem ER</span>
+                            </div>
+                            <span class="project-status">Projeto Acadêmico ADS</span>
+                        </div>
+                    </article>
+
+
+                    <!-- PROJETO 05: ARTIGOS DO MAGIC -->
+                    <article class="project-card">
+                        <div class="project-visual magic-visual">
+                            <div class="magic-product">
+                                <div class="shirt-icon">👕</div>
+                                <div class="product-tag">
+                                    <span>ARTIGOS DO MAGIC</span>
+                                    <strong>R$ 149,90</strong>
+                                </div>
+                                <div class="cart-btn-mini">🛒 ADICIONAR</div>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <div class="project-meta">
+                                <span>E-COMMERCE / STORE</span>
+                                <span>05</span>
+                            </div>
+                            <h3>Artigos do Magic</h3>
+                            <p>Conceito de loja virtual moderna voltada a artigos e vestuário, contendo vitrine de produtos, carrinho e layout dinâmico.</p>
+                            <div class="tag-list">
+                                <span>HTML5</span>
+                                <span>CSS3</span>
+                                <span>JavaScript UI</span>
+                            </div>
+                            <span class="project-status">Conceito E-commerce</span>
+                        </div>
+                    </article>
+
+
+                    <!-- PROJETO 06: SCRIPTS EM PYTHON -->
+                    <article class="project-card">
+                        <div class="project-visual python-visual">
+                            <div class="terminal-window">
+                                <div class="terminal-bar">
+                                    <span class="dot-red"></span>
+                                    <span class="dot-yellow"></span>
+                                    <span class="dot-green"></span>
+                                    <small>script.py</small>
+                                </div>
+                                <div class="terminal-body">
+                                    <p><span class="py-keyword">def</span> <span class="py-func">automacao</span>():</p>
+                                    <p class="indent"><span class="py-print">print</span>(<span class="py-str">"Processando..."</span>)</p>
+                                    <p><span class="py-out">>> Status: 200 OK</span><span class="cursor">_</span></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <div class="project-meta">
+                                <span>LÓGICA & AUTOMAÇÃO</span>
+                                <span>06</span>
+                            </div>
+                            <h3>Automações & Scripts Python</h3>
+                            <p>Coleção de scripts para tratamento de dados, automação de rotinas e exercícios de lógica de programação.</p>
+                            <div class="tag-list">
+                                <span>Python 3</span>
+                                <span>Automação</span>
+                                <span>Estrutura de Dados</span>
+                            </div>
+                            <span class="project-status">Repositório de Estudos</span>
+                        </div>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+
+        <!-- CONTATO -->
+        <section class="section container contact-section" id="contato">
+            <div class="reveal">
+                <p class="eyebrow">04 / CONTATO</p>
+                <h2>Vamos construir algo <span class="text-gradient">incrível juntos?</span></h2>
+                <p class="contact-copy">
+                    Estou em busca da minha primeira oportunidade como Desenvolvedor Web / Estagiário em TI. Se você tem um projeto ou vaga, mande uma mensagem!
+                </p>
+
+                <div class="contact-links">
+                    <button class="contact-card-btn" id="copyEmailBtn">
+                        ✉ Copiar E-mail <span>↗</span>
+                    </button>
+
+                    <a class="contact-card-btn" href="https://www.linkedin.com/in/pedro-mariano-ab379033a" target="_blank" rel="noopener noreferrer">
+                        LinkedIn <span>↗</span>
+                    </a>
+
+                    <a class="contact-card-btn" href="https://github.com/pedro1502-m" target="_blank" rel="noopener noreferrer">
+                        GitHub <span>↗</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+
+    <!-- RODAPÉ -->
+    <footer class="footer">
+        <div class="container footer-inner">
+            <a class="logo" href="#inicio">
+                pedro<span class="dot">.</span>
+            </a>
+            <p>Desenvolvido por Pedro Henrique · <span id="year">2026</span></p>
+            <a href="#inicio" class="back-top">VOLTAR AO TOPO ↑</a>
+        </div>
+    </footer>
+
+    <!-- Notificação de Toast (Cópia de Email) -->
+    <div id="toast" class="toast">E-mail copiado com sucesso! 🚀</div>
+
+</body>
+</html>
